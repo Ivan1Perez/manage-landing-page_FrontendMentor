@@ -30,8 +30,8 @@
 
             <div class="fixed inset-0 bg-gradient-to-b 
             from-white/70 to-black/70 translate-x-full
-            peer-checked:translate-x-0 transition-transform
-            md:static md:translate-x-0 md:bg-none">
+            peer-checked:translate-x-0 transition-transform 
+            z-40 md:static md:translate-x-0 md:bg-none">
 
                 <ul class="absolute inset-x-0 top-24 p-12 
                 bg-white w-[90%] mx-auto rounded-md h-max 
@@ -88,137 +88,211 @@
 
         </section>
 
-        <main>
+    </header>
 
-            <section class="wrapper text-center py-24 grid
+    <figure class="absolute inset-0 overflow-hidden
+    pointer-events-none">
+        <img src="images/bg-tablet-pattern.svg" 
+        class="absolute w-full -z-10 -top-24 -right-1/4
+        max-w-2xl">
+    </figure>
+
+    <main>
+
+        <section class="wrapper text-center py-24 grid
             gap-12 md:grid-cols-2 md:text-left">
 
-                <article>
-                    <h2 class="text-3xl font-bold text-very-dark-blue
+            <article>
+                <h2 class="text-3xl font-bold text-very-dark-blue
                     mb-6 md:text-4xl">
-                        What's different about Manage?
-                    </h2>
-                    <p class="text-dark-grayish-blue">
-                        Manage provides all the functionality your team needs, without the complexity. Out software is
-                        tailor-made for modern digital product teams.
+                    What's different about Manage?
+                </h2>
+                <p class="text-dark-grayish-blue">
+                    Manage provides all the functionality your team needs, without the complexity. Out software is
+                    tailor-made for modern digital product teams.
+                </p>
+            </article>
+
+            <div class="grid gap-12">
+
+                <article class="space-y-4 md:space-y-6">
+
+                    <p class="bg-very-pale-red rounded-l-full
+                        font-bold flex items-center md:bg-transparent">
+                        <span class="bg-bright-red text-white
+                            px-6 py-2 rounded-full">
+                            01
+                        </span>
+                        <span class="flex-1 p-2">
+                            Track company-wide progress
+                        </span>
                     </p>
+
+                    <p class="text-dark-grayish-blue text-left">
+                        See how your day-to-day tasks fit into the wider vision. Go grom tracking progress at the
+                        milestone level all the way done to the smalleest of details. Never lose sight of the bigger
+                        picture again.
+                    </p>
+
                 </article>
 
-                <div class="grid gap-12">
+                <article class="space-y-4 md:space-y-6">
 
-                    <article class="space-y-4 md:space-y-6">
-
-                        <p class="bg-very-pale-red rounded-l-full
+                    <p class="bg-very-pale-red rounded-l-full
                         font-bold flex items-center md:bg-transparent">
-                            <span class="bg-bright-red text-white
+                        <span class="bg-bright-red text-white
                             px-6 py-2 rounded-full">
-                                01
-                            </span>
-                            <span class="flex-1 p-2">
-                                Track company-wide progress
-                            </span>
-                        </p>
+                            02
+                        </span>
+                        <span class="flex-1 p-2">
+                            Advanced built-in reports
+                        </span>
+                    </p>
 
-                        <p class="text-dark-grayish-blue text-left">
-                            See how your day-to-day tasks fit into the wider vision. Go grom tracking progress at the
-                            milestone level all the way done to the smalleest of details. Never lose sight of the bigger
-                            picture again.
-                        </p>
+                    <p class="text-dark-grayish-blue text-left">
+                        Set internal delivery estimates and track progress toward company goals. Our customisable
+                        dashboard helps you build out the reports you need to keep key stakeholders informed.
+                    </p>
 
-                    </article>
+                </article>
 
-                    <article class="space-y-4 md:space-y-6">
+                <article class="space-y-4 md:space-y-6">
 
-                        <p class="bg-very-pale-red rounded-l-full
+                    <p class="bg-very-pale-red rounded-l-full
                         font-bold flex items-center md:bg-transparent">
-                            <span class="bg-bright-red text-white
+                        <span class="bg-bright-red text-white
                             px-6 py-2 rounded-full">
-                                02
-                            </span>
-                            <span class="flex-1 p-2">
-                                Advanced built-in reports
-                            </span>
-                        </p>
+                            03
+                        </span>
+                        <span class="flex-1 p-2">
+                            Everything you need in one place
+                        </span>
+                    </p>
 
-                        <p class="text-dark-grayish-blue text-left">
-                            Set internal delivery estimates and track progress toward company goals. Our customisable
-                            dashboard helps you build out the reports you need to keep key stakeholders informed.
-                        </p>
+                    <p class="text-dark-grayish-blue text-left">
+                        Stop jumping from one service to another to communicate store files, track tasks and share
+                        documents. Manage offers on all-in-one team productivity solution.
+                    </p>
 
-                    </article>
+                </article>
 
-                    <article class="space-y-4 md:space-y-6">
+            </div>
 
-                        <p class="bg-very-pale-red rounded-l-full
-                        font-bold flex items-center md:bg-transparent">
-                            <span class="bg-bright-red text-white
-                            px-6 py-2 rounded-full">
-                                03
-                            </span>
-                            <span class="flex-1 p-2">
-                                Everything you need in one place
-                            </span>
-                        </p>
-
-                        <p class="text-dark-grayish-blue text-left">
-                            Stop jumping from one service to another to communicate store files, track tasks and share
-                            documents. Manage offers on all-in-one team productivity solution.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </section>
+        </section>
 
 
-            <section class="wrapper text-center py-24 max-w-lg mx-auto
+        <section class="wrapper text-center py-24 max-w-lg mx-auto
             md:max-w-xl">
 
-                <h2 class="text-3xl font-bold text-very-dark-blue
+            <h2 class="text-3xl font-bold text-very-dark-blue
                 md:text-4xl">
-                    What they've said
-                </h2>
+                What they've said
+            </h2>
 
-                <div class="mt-24 mb-14">
-                    <article class="bg-very-light-gray pt-16 pb-12 px-4 relative">
-                        <img src="images/avatar-ali.png" alt=""
+            <div class="mt-24 mb-14">
+                <article class="bg-very-light-gray pt-16 pb-12 px-4 relative">
+                    <img src="images/avatar-ali.png" alt=""
                         class="absolute w-24 aspect-square -top-12 inset-x-0 mx-auto">
-                        <h3 class="text-xl mb-4 pt-2 font-bold text-very-dark-blue">
-                            Ali Bravo
-                        </h3>
-                        <p class="text-dark-grayish-blue">
-                            "We have been able to cancel many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."
-                        </p>
-                    </article>
-                </div>
+                    <h3 class="text-xl mb-4 pt-2 font-bold text-very-dark-blue">
+                        Ali Bravo
+                    </h3>
+                    <p class="text-dark-grayish-blue">
+                        "We have been able to cancel many other subscriptions since using Manage. There is no more
+                        cross-channel confusion and everyone is much more focused."
+                    </p>
+                </article>
+            </div>
 
-                <a href="#" class="button mx-auto shadow-xl
+            <a href="#" class="button mx-auto shadow-xl
                 shadow-bright-red/30">Get Started</a>
 
-            </section>
+        </section>
 
-            <section class="bg-bright-red font-bold">
+        <section class="bg-bright-red font-bold">
 
-                <div class="wrapper py-24 text-center
+            <div class="wrapper py-24 text-center
                 grid gap-6 md:grid-cols-[40%_40%] md:justify-between
                 md:items-center md:text-left">
 
-                    <h2 class="text-4xl text-very-pale-red">
-                        Simplify how your team works today.
-                    </h2>
+                <h2 class="text-4xl text-very-pale-red">
+                    Simplify how your team works today.
+                </h2>
 
-                    <a href="#" class="button bg-very-light-gray 
+                <a href="#" class="button bg-very-light-gray 
                     text-bright-red mx-auto md:mx-0 md:justify-self-end">Get Started
-                    </a>
+                </a>
 
-                </div>
+            </div>
 
-            </section>
+        </section>
 
-        </main>
+    </main>
 
-    </header>
+    <footer class="bg-very-dark-blue py-24">
+
+        <section class="wrapper grid gap-12
+        justify-items-center footer-area
+        md:footer-area-md md:grid-cols-3 
+        md:justify-items-stretch">
+
+            <form class="flex gap-4 min-w-[100px] w-full [grid-area:form]">
+                <input type="email" placeholder="Updates in your inbox..."
+                class="min-w-[50px] flex-1 rounded-full px-4">
+                <input type="submit" value="GO" class="py-3 px-4 
+                bg-bright-red rounded-full text-white">
+            </form>
+
+            <nav class="grid grid-cols-[max-content_max-content] gap-y-4
+            justify-between text-white w-4/5 [grid-area:navigation]
+            md:w-full">
+                <a href="#">Home</a>
+                <a href="#">Pricing</a>
+                <a href="#">Products</a>
+                <a href="#">About us</a>
+                <a href="#">Careers</a>
+                <a href="#">Community</a>
+                <a href="#">Privacy Policy</a>
+            </nav>
+
+            <div class="flex flex-wrap gap-4 justify-between
+            w-full [grid-area:social-media]">
+
+                <a href="#">
+                    <img src="images/icon-facebook.svg" 
+                    class="w-8">
+                </a>
+                <a href="#">
+                    <img src="images/icon-youtube.svg" 
+                    class="w-8">
+                </a>
+                <a href="#">
+                    <img src="images/icon-twitter.svg" 
+                    class="w-8">
+                </a>
+                <a href="#">
+                    <img src="images/icon-pinterest.svg" 
+                    class="w-8">
+                </a>
+                <a href="#">
+                    <img src="images/icon-instagram.svg" 
+                    class="w-8">
+                </a>
+
+            </div>
+
+            <a href="" class="[grid-area:logo]">
+                <img src="images/logo-white.svg" 
+                class="">
+            </a>
+
+            <p class="text-dark-grayish-blue text-center
+            [grid-area:copy] md:text-right">
+                Copyright 2023. All Rights Reserved
+            </p>
+            
+        </section>
+
+    </footer>
 
 </body>
 
